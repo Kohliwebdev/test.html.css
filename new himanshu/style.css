@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+    height: auto;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 100px;
+
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    height: 100%;
+}
+header li a {
+    color: rgba(224, 236, 247, 0.829);
+    text-decoration: none;
+    margin-top: 80px; 
+    transition: 2s ease all;
+}
+header li a :hover{
+    color: white;
+}
+.services{
+    background-color:rgba(0, 0, 0, 0.849);
+    height: 500px;
+}
+.home-photo img{ 
+    height: 350px;
+    margin-left: 25%;
+    border-radius: 50%;
+   
+      
+}
+.heading{ 
+    display: inline;
+}
+.heading2 h2{
+    height: 50px;
+    margin-left: 3%;
+    color: white;
+}  
